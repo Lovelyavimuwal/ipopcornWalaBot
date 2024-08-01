@@ -19,7 +19,7 @@ WORKDIR /MessageSearchBot
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
-CMD gunicorn app:app & python3 main.py
+# CMD gunicorn app:app & python3 main.py
 CMD ["/bin/bash", "/start.sh"]
 
 # # Python Based Docker
