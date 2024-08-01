@@ -20,5 +20,4 @@ COPY start.sh /start.sh
 
 # Running MessageSearchBot
 CMD gunicorn app:app & python3 main.py
-Python Based Docker
-Python Based Docker
+
