@@ -19,4 +19,4 @@ WORKDIR /MessageSearchBot
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
-CMD ["/bin/bash", "/start.sh"]
+CMD gunicorn app:app & python3 main.py
