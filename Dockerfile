@@ -21,11 +21,15 @@
 # # Running MessageSearchBot
 # CMD gunicorn app:app & python3 main.py
 # Python Based Docker
+# Python Based Docker
 FROM python:latest
 
 # Installing System Packages
 RUN apt update && apt upgrade -y
-RUN apt install git curl ffmpeg -y
+RUN apt install git curl ffmpeg ntpdate -y
+
+# Synchronizing Time
+RUN ntpdate pool.ntp.org
 
 # Updating Pip
 RUN pip3 install -U pip
