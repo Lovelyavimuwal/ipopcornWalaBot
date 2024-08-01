@@ -1,45 +1,24 @@
-# # Python Based Docker
-# FROM python:latest
-
-# # Installing Packages
-# RUN apt update && apt upgrade -y
-# RUN apt install git curl python3-pip ffmpeg -y
-
-# # Updating Pip Packages
-# RUN pip3 install -U pip
-
-# # Copying Requirements
-# COPY requirements.txt /requirements.txt
-
-# # Installing Requirements
-# RUN cd /
-# RUN pip3 install -U -r requirements.txt
-# RUN mkdir /MessageSearchBot
-# WORKDIR /MessageSearchBot
-# COPY start.sh /start.sh
-
-# # Running MessageSearchBot
-# CMD gunicorn app:app & python3 main.py
-# Python Based Docker
 # Python Based Docker
 FROM python:latest
 
-# Installing System Packages
+# Installing Packages
 RUN apt update && apt upgrade -y
-RUN apt install git curl ffmpeg ntpdate -y
+RUN apt install git curl python3-pip ffmpeg -y
 
-# Synchronizing Time
-RUN ntpdate pool.ntp.org
-
-# Updating Pip
+# Updating Pip Packages
 RUN pip3 install -U pip
 
-# Copying the application files
-WORKDIR /MessageSearchBot
-COPY . /MessageSearchBot
+# Copying Requirements
+COPY requirements.txt /requirements.txt
 
-# Installing Python Dependencies
+# Installing Requirements
+RUN cd /
 RUN pip3 install -U -r requirements.txt
+RUN mkdir /MessageSearchBot
+WORKDIR /MessageSearchBot
+COPY start.sh /start.sh
 
 # Running MessageSearchBot
-CMD ["python3", "main.py"]
+CMD gunicorn app:app & python3 main.py
+Python Based Docker
+Python Based Docker
