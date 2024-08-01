@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+# (c) @snap_leaks_2024
 
 import os
 
@@ -13,9 +13,9 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
+    ABOUT_BOT_TEXT = """<b>This is Movie Search Bot.
 
-🤖 My Name: <a href='https://t.me/iPopcornMovieBot'>i Popcorn Movie Bot</a>
+🤖 My Name: <a href='https://t.me/userdemoforrobot'> Movie Bot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,10 +23,10 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/RoyalKrrishna'>@RoyalKrrishna</a></b>
+👨‍💻 Created By: <a href='https://t.me/snap_leaks_2024'>@snap_leaks_2024</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/RoyalKrrishna'>@RoyalKrrishna</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/snap_leaks_2024'>@snap_leaks_2024</a>
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
@@ -38,7 +38,7 @@ i Popcorn Movie Bot Here.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @RoyalKrrishna</a></b>
+<a>Made With ❤ By @snap_leaks_2024</a></b>
 """
 
 
@@ -49,7 +49,7 @@ i Popcorn Movie Bot Here.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @RoyalKrrishna</a></b>
+<a>Made With ❤ By @snap_leaks_2024</a></b>
 """
 
 
