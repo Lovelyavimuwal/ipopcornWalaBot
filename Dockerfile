@@ -20,7 +20,7 @@ COPY start.sh /start.sh
 
 # Running MessageSearchBot
 # CMD gunicorn app:app & python3 main.py
-CMD ["/bin/bash", "/start.sh"]
+CMD ["/bin/bash", "/start.sh", "gunicorn app:app & python3 main.py"]
 
 # # Python Based Docker
 # FROM python:latest
