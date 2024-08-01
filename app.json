@@ -1,6 +1,6 @@
 {
-    "name": "This is Inline Search Bot by @RoyalKrrishna",
-    "description": "This is Inline Channel Messages Search Bot by @RoyalKrrishna",
+    "name": "This is Inline Search Bot by @snap_leaks_2024",
+    "description": "This is Inline Channel Messages Search Bot by @snap_leaks_2024",
     "keywords": [
         "telegram",
         "channel",
@@ -8,15 +8,15 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/RoyalKrrishna/MessageSearchBot",
-    "website": "https://telegram.dog/RoyalKrrishna",
-    "success_url": "https://t.me/mdisksearchroBot",
+    "repository": "https://github.com/lovelyavimuwal/MessageSearchBot",
+    "website": "https://telegram.dog/snap_leaks_2024",
+    "success_url": "https://t.me/userdemoforrobot",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org "
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org "
         },
         "USER_SESSION_STRING": {
             "description": "Get this from @StringSessionGen_Bot"
